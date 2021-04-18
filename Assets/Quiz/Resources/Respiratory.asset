@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: Respiratory
+  m_EditorClassIdentifier: 
+  categoryName: Respiratory
+  questions:
+  - questionInfo: Your body couldn't breath without this system. Which one is it
+      ?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Perspiration system
+    - Respiratory system
+    - Photosynthesis
+    - Urinary system
+    correctAns: Respiratory system
+  - questionInfo: 'The respiratory system is made up of the trachea, the lungs, and
+      the: '
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Liver
+    - Diaphragm
+    - Esophagus
+    - Pancreas
+    correctAns: Diaphragm
+  - questionInfo: 'When you breathe in air, you bring oxygen into your lungs and
+      blow out: '
+    questionType: 0
+    questionImage: {fileID: 21300000, guid: c0bb50585e74c4e42afe23172c92e36f, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 'Carbon dioxide '
+    - 'Carbon monoxide '
+    - Oxygen
+    - Hydrogen
+    correctAns: 'Carbon dioxide '
+  - questionInfo: 'What is the name of the tiny air sacs in your lungs ? '
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Bronchioles
+    - Ravioli
+    - Alveoli
+    - Bronx
+    correctAns: Alveoli
+  - questionInfo: 'The tiny hairs that keep mucus and dirt out of your lungs are
+      called: '
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Lung hairs
+    - Stubble
+    - Bronchioles
+    - Cilia
+    correctAns: Cilia
